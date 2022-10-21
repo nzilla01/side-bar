@@ -1,0 +1,93 @@
+img{
+  width: 400px;
+  height: 410px;
+  position: absolute;
+  top:60px;
+}
+.header{
+  display:flex;
+  justify-content: space-between 
+}
+li{
+  list-style: none;
+}
+.nav{
+  line-height: 50px;
+  display:none;
+  position:relative;
+  background:whitesmoke;
+padding-right: 80px;
+width: 200px;
+height:100vh;
+z-index:5;
+padding-top: 60px;
+transition:all 0.7s ease-in;
+}
+i{
+  margin: 10px;
+  font-size: 20px;
+}
+ .register{
+  position: relative;
+left:20px;
+font-size: 20px;
+padding: 10px 80px 10px 80px;
+line-height:20px;
+border-radius: 30px
+}
+.login{
+position: relative;
+left:20px;
+font-size: 20px;
+padding: 10px 90px 10px 90px;
+line-height:20px;
+border-radius: 30px}
+h1{
+  font-size:40px;
+  margin: 0 0 0 5px;
+}
+.nav #menu {
+  font-size: 18px;
+  font-weight: 400;
+}
+#bar{
+  font-size:35px;
+}
+.form{
+  text-align:center;
+  font-size: 22px;
+  position:absolute ;
+  top:500px;
+}
+h2{
+  font-size:45px;
+  margin-bottom: 20px
+}
+.btn{
+  font-size: 20px;
+  border-radius: 15px;
+  background: black;
+  color: whitesmoke;
+  margin-top:20px;
+  padding:5px 10px 5px 10px
+}
+*{
+  margin: 0
+}
+footer ul{
+display: none
+}
+#cancel{
+  position: absolute;
+  right: 20px;
+  font-size: 40px;
+  top:0;
+  
+}
+.submenu1, .submenu2 {
+  display: none 
+}
+li:hover { 
+  transform: scale(1.2);
+  color: rgb(23 40 70);
+}
